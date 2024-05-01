@@ -615,7 +615,7 @@ in Nelle's `north-pacific-gyre` directory:
 # Calculate stats for data files.
 for datafile in "$@"
 do
-    echo $datfile
+    echo $datafile
     bash goostats.sh $datafile stats-$datafile
 done
 ```
